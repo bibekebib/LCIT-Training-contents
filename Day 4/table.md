@@ -1,0 +1,89 @@
+1. Creation of tables
+  <table>
+    <tr>
+        <td>15</td> 
+        <td>15</td> 
+        <td>30</td>
+    </tr> 
+    <tr>
+        <td>45</td> 
+        <td>60</td> 
+        <td>45</td>
+    </tr> 
+    <tr>
+        <td>60</td> 
+        <td>90</td> 
+        <td>90</td>
+    </tr>
+    </table>
+
+2. Insertion of Table headers
+
+    <table> 
+        <tr>
+            <th></th>
+            <th scope="col">Saturday</th> 
+            <th scope="col">Sunday</th>
+        </tr> 
+        <tr>
+            <th scope="row">Tickets sold:</th> 
+            <td>120</td>
+            <td>135</td>
+        </tr> <tr>
+            <th scope="row">Total sales:</th> 
+            <td>$600</td>
+            <td>$675</td>
+        </tr>
+    </table>
+
+3. Spanning Columns
+
+    <table>
+      <tr>
+        <th></th>
+        <th>9am</th>
+        <th>10am</th>
+        <th>11am</th>
+        <th>12am</th>
+      </tr>
+      <tr>
+        <th>Monday</th>
+        <td colspan="2">Geography</td>
+        <td>Math</td>
+        <td>Art</td>
+      </tr>
+      <tr>
+        <th>Tuesday</th>
+        <td colspan="3">Gym</td>
+        <td>Home Ec</td>
+      </tr>
+    </table>
+
+4. Spanning of Rows
+
+    <table>
+      <tr>
+        <th></th>
+        <th>ABC</th>
+        <th>BBC</th>
+        <th>CNN</th>
+      </tr>
+      <tr>
+        <th>6pm - 7pm</th>
+        <td rowspan="2">Movie</td>
+        <td>Comedy</td>
+        <td>News</td>
+      </tr>
+      <tr>
+        <th>7pm - 8pm</th>
+        <td>Sport</td>
+        <td>Current Affairs</td>
+      </tr>
+      <tr>
+        <th>8pm -9pm</th>
+        <td>Music</td>
+        <td>Movie</td>
+        <td>Debate</td>
+      </tr>
+    </table>
+    
