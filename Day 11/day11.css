@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    padding: 2px;
+    margin: 3px;
+}
+.container{
+    border: 1px solid rebeccapurple;
+    width: 600px;
+    margin: 0 100px;
+}
+h1{
+    text-align: center;
+    color: goldenrod;
+}
+.username, .password, .Cpassword, .radio{
+    border-bottom: 1px solid green;
+}
+input{
+    border: none;
+    border-bottom: 1px solid blueviolet;
+}
+
+.submit{
+    border: 1px solid green;
+    width: 70px;
+    margin: 10px 265px;
+    border-radius: 10px;
+    text-align: center;
+}
+input[type="submit"]{
+    border: none;
+    background-color: transparent;
+    padding: 5px;
+    
+
+}
