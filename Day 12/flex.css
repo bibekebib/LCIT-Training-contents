@@ -1,0 +1,20 @@
+.flex-container{
+    display: flex;
+    height: 700px;
+    width: 300px;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: aqua;
+}
+/* div:nth-child(even){
+    flex-grow: 2;
+} */
+
+.flex-container div{
+  
+    padding: 30px;
+    margin: 5px;
+    background-color: aliceblue;
+    text-align: center;
+}

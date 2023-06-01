@@ -1,0 +1,21 @@
+.flex-container {
+    /* width: 600px; */
+    height: 700px;
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: DodgerBlue;
+  }
+
+
+
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
