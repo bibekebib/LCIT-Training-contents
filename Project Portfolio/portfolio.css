@@ -250,3 +250,110 @@ body {
 #projects .project-item:nth-child(even) {
 	flex-direction: row-reverse;
 }
+
+
+/* contact section starts */
+
+#contact .contact {
+    display: flex;
+	flex-direction: column;
+	max-width: 1200px;
+	margin: 0 auto;
+	/* width: 90%; */
+}
+#contact .contact-items {
+    display: flex;
+	width: 100%;
+}
+#contact .contact-item {
+	width: 80%;
+	text-align: center;
+	border-radius: 10px;
+	padding: 30px;
+	margin: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	box-shadow: 0px 0px 18px 0 #0000002c;
+	transition: 0.3s ease box-shadow;
+}
+#contact .contact-item:hover {
+	box-shadow: 0px 0px 5px 0 #0000002c;
+}
+#contact .contact-item a{
+    text-decoration: none;
+    color: var(--second-color);
+}
+#contact .icon {
+	width: 70px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+#contact .contact-info h1 {
+	font-size: 2.5rem;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+#contact .contact-info h2 {
+	font-size: 1.3rem;
+	line-height: 2rem;
+	font-weight: 500;
+}
+
+.containerF {
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#footer {
+    /* border: 1px solid rebeccapurple; */
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+.brand{
+	font-size: 2rem;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	text-align: center;
+}
+.brand h1 span {
+	color: crimson;
+}
+#footer .footer {
+	min-height: 200px;
+	flex-direction: column;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+#footer h2 {
+	color: white;
+	font-weight: 500;
+	font-size: 1.8rem;
+	letter-spacing: 0.1rem;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#footer .social-icon {
+	display: flex;
+	margin-bottom: 30px;
+}
+#footer .social-item {
+	height: 50px;
+	width: 50px;
+	margin: 0 15px;
+}
+#footer .social-item img {
+	filter: grayscale(1);
+	transition: 0.3s ease filter;
+}
+#footer .social-item:hover img {
+	filter: grayscale(0);
+}
+#footer p {
+	color: white;
+	font-size: 1.3rem;
+    margin-top: 1rem;
+}
