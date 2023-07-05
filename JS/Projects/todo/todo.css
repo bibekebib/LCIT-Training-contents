@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  #todo-container {
+    margin-top: 50px;
+  }
+  
+  #task-input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  #add-button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  #task-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #task-list li {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  #task-list li button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  
