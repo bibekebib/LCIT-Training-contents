@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var sum = 1;
+function fact(n){
+    if (n==1){
+        return  1
+    }
+    else{
+        sum =n*(fact(n-1))
+    }
+    return sum
+}
+
+var tot = fact(6)
+console.log(tot)
+    </script>
+</body>
+</html>

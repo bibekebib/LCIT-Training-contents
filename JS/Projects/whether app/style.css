@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  #weather-container {
+    margin-top: 50px;
+  }
+  
+  #city-input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  #search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  #weather-info {
+    margin-top: 30px;
+  }
+  
+  #location {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  #temperature {
+    font-size: 48px;
+    margin: 10px 0;
+  }
+  
+  #description {
+    font-size: 18px;
+  }
+  
+  #icon {
+    margin-top: 20px;
+  }
+  
